@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .btn-read {
+display: block !important;
+        border: 1px solid;
+        padding: 20px;
+        color: white;
+    }
+    .section1 {
+    position:static !important;
+    }
+  }

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+}
+
+.head{
+    background: url('https://static.pexels.com/photos/248515/pexels-photo-248515.png');
+    height: 500px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+width: auto;
+opacity: 0.4;
+z-index: -1;
+}
+
+
+.section1 {
+    position: absolute;
+    top: 200px;
+    /* height: 37px; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    color:white;
+}
+
+
+
+.section1 h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-read {
+    /* width: auto; */
+    /* padding: 21px; */
+    /* max-width: fit-content; */
+    display: flex;
+    flex-direction: row;
+    left: 30px;
+    position: absolute;
+    top: 86px;
+    left: 50%;
+    border: 1px solid;
+    padding: 20px;
+    color: white;
+}
+.btn-read:hover {
+    background: gray;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.se-section {
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 100%;
+    text-align: center;
+    padding: 28px 0px;
+    color: #000;
+    background: lightgray;
+}
+.sections {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.f-one , .f-two{
+    width: 33%;
+}
+
+.third-sec {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.third-sec  img,.third-sec img,.third-sec  img {
+    width: 100%;
+    height: auto;
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+}
+
+.one, .two, .three {
+    width: 25%;
+    padding: 0px;
+    background-color: white;
+    height: 400px;
+    max-width: 400px;
+    text-align: center;
+    /* width: 100%; */
+}
+.third-sec h2 {
+    margin: 28px;
+    /* line-height: 26px; */
+}
+.third-sec p {
+    line-height: 20px;
+}
+
+
+.forth-sec {
+    background: white;
+    padding: 66px 20px;
+    /* width: 100vh; */
+    text-align: center;
+}
+
+.forth-sec h1 {
+    margin-bottom: 42px;
+}
+
+
+.f-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.ff-one {
+    width: 50%;
+    background: #2690d4;
+    color: white;
+}
+
+.ff-one h1 {
+    text-align: center;
+    padding: 50px;
+}
+.ff-one p {
+    padding: 22px 46px;
+    text-align: center;
+}
+
+#f-sec-div{
+    background: #333 !important;
+}
+
+.section-foo {
+    width: 50%;
+    text-align: center;
+}
+footer#footer {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    background: black;
+    color: white;
+}
+.section-foo>span{
+    color: #2690d4;
+}
